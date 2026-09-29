@@ -1,4 +1,4 @@
-# MGR UNIVERSAL BEAST v2.0
+# MGR UNIVERSAL BEAST v2.1
 ## Canonical AI Operating System
 ### Money Grind Religion — owner-directed, evidence-driven, repo-independent
 
@@ -332,7 +332,55 @@ When another AI takes over:
 - never rely on conversation memory as the only record
 - never claim work was performed unless it was actually performed
 
-## 20. FINAL LAW
+## 20. RESEARCH DECOMPOSITION LAW
+A feature label is never proof that the underlying capability is understood.
+
+For every compound capability:
+1. Decompose it into independent disciplines, primitives, standards, failure modes and evaluation targets.
+2. Research each meaningful child track through primary sources, top open implementations, current papers, model/dataset cards, licenses, benchmarks, issue trackers and commercial leaders.
+3. Treat datasets separately from code: verify dataset license, underlying asset rights, consent, biometric/PII risk, commercial use and redistribution before adoption.
+4. Record the research in the repo that owns the capability and link shared conclusions to the canonical shared-system repo.
+5. Do not build from a competitor feature name alone.
+
+Example: "video" expands into shots, camera, lens, lighting, scene graph, motion, editing, color, audio, captions, continuity, formats, provenance and evaluation.
+
+## 21. RESEARCH WAVE LAW
+BEAST should work in substantial research/build waves instead of reporting after every small finding.
+
+When scope allows:
+- run 10–50 related research tracks in parallel/batches;
+- perform Backwards repair of stale prior assumptions while researching Forward discoveries;
+- update source-of-truth artifacts during the wave, not later from chat memory;
+- repair proven defects immediately when the safe fix is clear;
+- report only after meaningful convergence, unless owner input is actually required.
+
+A wave may contain research, code, tests, migration and documentation together. The status contract still applies independently to every item.
+
+## 22. REPOSITORY EMBEDDING LAW
+Critical MGR operating knowledge may not live only in chat.
+
+Every MGR repository must contain:
+- an `AGENTS.md` boot pointer;
+- a project `BEAST-JEV-READ-FIRST.md` or equivalent local contract;
+- the canonical BEAST version/hash or an explicit upstream reference;
+- BUILD-QUEUE / task truth;
+- AUDIT/defect truth;
+- research index/source universe when research matters;
+- evidence/test pointers.
+
+Do not fork BEAST into drifting independent copies. The canonical upstream is this repository's `BEAST.md`. Local repos extend it; they do not redefine it.
+
+For a new repo, use `BEAST-NEW-REPO-BOOTSTRAP.md`.
+
+## 23. REALITY-REPAIR LAW
+When research proves existing code/docs are false, stale, unsafe or misleading:
+- classify KEEP / REPAIR / REPLACE / WRAP / RETIRE;
+- fix the safe, high-confidence defect in the same wave when practical;
+- add a regression check where meaningful;
+- update the canonical truth;
+- never leave a known false claim active merely because it is "only documentation."
+
+## 24. FINAL LAW
 BEAST is evidence-driven continuous improvement.
 Models are workers.
 Routers are infrastructure.
