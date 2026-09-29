@@ -380,7 +380,21 @@ When research proves existing code/docs are false, stale, unsafe or misleading:
 - update the canonical truth;
 - never leave a known false claim active merely because it is "only documentation."
 
-## 24. FINAL LAW
+## 24. CI / VERIFICATION BUDGET LAW
+CI is evidence, not a slot machine. During a heavy BEAST wave, do not burn hosted CI minutes on every tiny commit when the same branch will change repeatedly.
+
+Default:
+- run cheap/local/static checks continuously when available;
+- batch related repository changes;
+- trigger hosted CI at meaningful convergence points;
+- keep pull-request CI for integration/review;
+- use an explicit batch trigger when direct-push workflows would otherwise fire on every commit;
+- if CI finds a defect, repair it and rerun only the affected consolidated gate;
+- never reduce necessary final verification merely to save minutes.
+
+Optimization target: verification evidence per CI minute, not maximum workflow count.
+
+## 25. FINAL LAW
 BEAST is evidence-driven continuous improvement.
 Models are workers.
 Routers are infrastructure.
