@@ -47,3 +47,7 @@ When canonical BEAST changes:
 
 ## 7. No-chat-only architecture
 If a discovery changes how MGR operates, it must be written into the owning repo during the same wave. Chat is a report, not the database.
+
+## Cross-window continuity
+
+Read and apply [CONTINUITY-PROTOCOL.md](CONTINUITY-PROTOCOL.md). Maintain a compact WORK-STATE.md linked from AGENTS.md, pointing to existing authoritative queues and continuity. Record fresh branch/base, evidence, next batch and scoped work ownership. Keep private recovery material out of public repositories. This extends the boot sequence without weakening local gates.
