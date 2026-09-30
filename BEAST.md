@@ -383,16 +383,18 @@ When research proves existing code/docs are false, stale, unsafe or misleading:
 ## 24. CI / VERIFICATION BUDGET LAW
 CI is evidence, not a slot machine. During a heavy BEAST wave, do not burn hosted CI minutes on every tiny commit when the same branch will change repeatedly.
 
-Default:
-- run cheap/local/static checks continuously when available;
-- batch related repository changes;
-- trigger hosted CI at meaningful convergence points;
-- keep pull-request CI for integration/review;
-- use an explicit batch trigger when direct-push workflows would otherwise fire on every commit;
-- if CI finds a defect, repair it and rerun only the affected consolidated gate;
-- never reduce necessary final verification merely to save minutes.
+Owner lock — applies to every MGR repository and every AI/coding window:
+- GitHub Actions must not be used as an edit-by-edit feedback loop when equivalent local checks can run first.
+- Do not create or preserve workflows that trigger expensive hosted jobs for every trivial documentation, prompt, formatting or intermediate implementation commit.
+- Prefer local typecheck/lint/unit/integration checks during active development.
+- Batch coherent changes, then use hosted CI at meaningful convergence/integration/release gates.
+- Use `[skip ci]` only where the repository workflow/provider actually honors it and the skipped commit does not require hosted evidence.
+- Prefer explicit/manual/batched triggers for expensive suites where appropriate.
+- If CI finds a defect, reproduce/repair locally first when possible, then rerun only the affected consolidated gate.
+- Track CI cost/waste as an engineering defect when automation repeatedly burns minutes without adding new evidence.
+- Never weaken necessary final verification merely to save money.
 
-Optimization target: verification evidence per CI minute, not maximum workflow count.
+Optimization target: verification evidence per CI minute and cost per VERIFIED outcome, not maximum workflow count.
 
 ## 25. FINAL LAW
 BEAST is evidence-driven continuous improvement.
