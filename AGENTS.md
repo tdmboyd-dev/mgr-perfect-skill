@@ -1,5 +1,9 @@
 # MGR AI BOOT — READ BEFORE WORK
 
+## Current MGR Beast Pack
+
+Read `MGR-Beast-Pack/MGR-BEAST-PACK.md` in full as the current operating handbook. The supplied activation text and templates are in `MGR-Beast-Pack/`. Existing product decisions, research, populated queues and evidence remain in their current files.
+
 Required read order:
 1. `JEV-DECISION-CONTRACT.md`
 2. `SKILL.md` when the task needs the MGR engineering skill library
