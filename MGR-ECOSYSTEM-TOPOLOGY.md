@@ -26,5 +26,3 @@ Create Loco is a specific shop/product using that engine.
 ## Domain rule
 Internal shared services do not need public websites. Public products may keep distinct domains while calling private shared services. API/MCP may share one API domain or subpaths. Exact domain names remain a brand/deployment decision.
 
-## Canonical method
-All repos follow BEAST.md v2.1 plus their local read-first contract.

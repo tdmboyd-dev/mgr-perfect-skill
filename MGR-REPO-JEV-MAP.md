@@ -1,5 +1,4 @@
 # MGR ACCOUNT-WIDE JEV / DECISION INTELLIGENCE MAP
-## Canonical companion to Universal BEAST v2
 Updated: 2026-09-27
 
 This file is the cross-repository map for the connected `tdmboyd-dev` GitHub account. It prevents each project from inventing its own meaning of Jev, routing, verification or cost optimization.
@@ -132,7 +131,7 @@ Final ownership/eligibility/legal determination, notarization, payout math, sign
 Universal coding/build package, agents, recipes, bibles, model router, token/cost research, checkpoints.
 
 ### Verdict
-KEEP as reusable engineering toolkit; make BEAST the proof/decision layer above it.
+KEEP as reusable engineering toolkit.
 
 ### Jev placement
 Templates for model/agent/tool routing, context filtering, test-failure classification, research ranking, memory triage and retry/escalation.
@@ -144,15 +143,13 @@ Templates for model/agent/tool routing, context filtering, test-failure classifi
 Universal portable skill distribution.
 
 ### Verdict
-This is the current canonical distribution home for BEAST v2.
+Universal portable skill distribution.
 
 ### Jev placement
-BEAST defines when Jev is allowed, how it is evaluated, and how providers remain replaceable.
+See JEV-DECISION-CONTRACT.md.
 
 Canonical files:
 - AGENTS.md
-- BEAST-BOOT.md
-- BEAST.md
 - JEV-DECISION-CONTRACT.md
 - SKILL.md
 
@@ -258,7 +255,6 @@ Add deterministic provider, LLM fallback adapters, durable decision telemetry, c
 # Migration order
 
 ## Wave A — foundation
-1. Universal BEAST v2 canonicalized.
 2. Decision contract canonicalized.
 3. Creation OS DecisionEngine established.
 4. MGR Agents first real Jev route established.

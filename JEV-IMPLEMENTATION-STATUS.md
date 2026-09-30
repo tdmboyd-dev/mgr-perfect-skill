@@ -1,4 +1,4 @@
-# JEV / BEAST IMPLEMENTATION STATUS
+# JEV IMPLEMENTATION STATUS
 Updated: 2026-09-27
 
 ## Status language
@@ -7,13 +7,10 @@ IMPLEMENTED = working code exists.
 TESTED = tests were added/executed where stated.
 VERIFIED = CI/runtime evidence proves the stated acceptance check.
 
-## Canonical BEAST
-- Universal BEAST v2: IMPLEMENTED as documentation in `BEAST.md`.
-- Backwards-Forwards method: DOCUMENTED.
+## Decision documentation
 - Decision ladder and Jev boundaries: DOCUMENTED.
 - MGR Decision Engine contract: DOCUMENTED.
 - Router/swarm/DAG quality tests: DOCUMENTED.
-- Universal boot order: DOCUMENTED in `AGENTS.md` and `BEAST-BOOT.md`.
 - Cross-repo integration map: DOCUMENTED in `MGR-REPO-JEV-MAP.md`.
 
 ## Creation OS
@@ -60,7 +57,7 @@ VERIFIED = CI/runtime evidence proves the stated acceptance check.
 - Runtime integration: QUEUED.
 
 ## Remaining repos
-MGR Elite Hub, Dii Heirloom, MGR Capital Assistance, MGR Perfect Code, MGR Visual Forge, MGR Compliance Buddy, HU all have project-specific BEAST/Jev contracts committed. Runtime integration should follow each repo's boundary rules and shared DecisionEngine rather than direct vendor calls.
+MGR Elite Hub, Dii Heirloom, MGR Capital Assistance, MGR Perfect Code, MGR Visual Forge, MGR Compliance Buddy, HU all have project-specific Jev contracts committed. Runtime integration should follow each repo's boundary rules and shared DecisionEngine rather than direct vendor calls.
 
 ## Global rule
 Do not report "Jev integrated across MGR" until each product that needs runtime decisions actually consumes the shared DecisionEngine or a compatible adapter and passes its own eval/verification gates.
